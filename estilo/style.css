@@ -1,0 +1,202 @@
+@charset "UTF-8";
+@font-face {
+    font-family: digital;
+    src: url(../fonts/wwDigital.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: cadetblue;
+
+}
+
+header { 
+    color: white;
+    text-shadow: 1px 1px 4px rgba(211, 211, 211, 0.416);
+    text-decoration: underline;
+    padding: 20px;
+    font-weight: bold;
+    margin: auto;
+    width: 90vw;
+    margin-bottom: 60px;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header h1 {
+    text-align: center;
+    
+}
+
+main {
+    background-color: antiquewhite;
+    margin: auto;
+    width: 400px;
+    height: 475px;
+    border-radius: 10px;
+    padding-top: 20px;
+    font-size: 1.8em;
+    font-weight: bolder;
+    border: 2px solid rgba(210, 180, 140, 0.575);
+    box-shadow: 0px 0px 5px rgba(72, 71, 71, 0.585);
+}
+
+
+
+div#tela {
+    background-color: lightgreen;
+    width: 350px;
+    height: 70px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(122, 122, 122, 0.41);
+    text-align: right;
+    
+}
+
+div#tela > #sinalExibido {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(87, 224, 87);
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 3px;
+    text-align: center;
+    box-shadow: 0px 1px 3px rgba(89, 88, 88, 0.297);
+    font-size: 17px;
+}
+
+main div#suporteTela {
+    margin-bottom: 15px;
+    font-family: digital;
+    font-size: 1.3em;
+}
+
+main div.fundoTeclas {
+    background-color: seashell;
+    width: 87%;
+    height: 360px;
+    margin: auto;
+    box-shadow: 0px 0px 2px rgba(86, 85, 85, 0.17);
+    border-radius: 3px;
+}
+
+main div.tecla {
+    background-color: cadetblue;
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    display:inline-flex;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+div.tecla:hover {
+    background-color: rgb(81, 143, 144);
+    cursor: pointer;
+    
+}
+
+div.tecla:active {
+    background-color: rgb(62, 116, 117);;
+   
+}
+
+main div.teclaC0 {
+    padding: 20px 0px 5px 23px;
+}
+
+main div#teclasC1 {
+    padding: 14px 0px 5px 29px;
+}
+
+main div#teclasC2 {
+    padding: 0px 0px 5px 29px;
+}
+
+main div#teclasC3 {
+    padding:0px 0px 5px 29px;
+}
+
+main div#teclasC4 {
+    padding:20px 0px 5px 29px;
+}
+
+main div#teclaC1 {
+    background-color: cadetblue;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    display: inline-block;
+}
+
+
+main div#reset {
+    margin: 20px 0px 5px 30px;
+    width: 50px;
+    height: 50px;
+}
+
+main div#trocaSinal {
+    width: 50px;
+    height: 50px;
+    margin: 20px 5px 5px 5px;
+}
+
+main div#tecMultiplica {
+    margin-left: 32px;
+    width: 70px;
+    
+}
+
+main div#tecsCalc_divisao  {
+    margin-left: 35px;
+    width: 70px;
+}
+
+main div#tecsCalc_subtracao {
+    margin-left: 35px;
+    width: 70px; /*94*/
+}
+
+main div#tecsCalc_soma {
+    margin-left: 35px;
+    width: 70px;
+}
+
+main div#tecsCalc_porcentagem {
+    width: 50px;
+    height: 50px;
+    margin: 0px 0px 0px 6px;
+}
+
+main div#tecigual {
+    margin-left: 10px;
+    width: 157px; 
+ }
+
+ footer div {
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+
+ }
+
+ footer a {
+    color: whitesmoke;
+ }
+
+ footer a:hover {
+    color: rgb(188, 187, 187);
+ }
