@@ -18,70 +18,60 @@
             case "tec1":
 
                 valor += "1"
-                telaExibidora.innerHTML = ``
                 telaExibidora.innerHTML = `${valor}`
                 break
 
             case "tec2":
 
                 valor += "2"
-                telaExibidora.innerHTML = ``
                 telaExibidora.innerHTML = `${valor}`
                 break
 
             case "tec3":
 
                 valor += "3"
-                telaExibidora.innerHTML = ``
                 telaExibidora.innerHTML = `${valor}`
                 break
 
             case "tec4":
 
                 valor += "4"
-                telaExibidora.innerHTML = ``
                 telaExibidora.innerHTML = `${valor}`
                 break
 
             case "tec5":
 
                 valor += "5"
-                telaExibidora.innerHTML = ``
                 telaExibidora.innerHTML = `${valor}`
                 break
 
             case "tec6":
 
                 valor += "6"
-                telaExibidora.innerHTML = ``
                 telaExibidora.innerHTML = `${valor}`
                 break
 
             case "tec7":
 
                 valor += "7"
-                telaExibidora.innerHTML = ``
                 telaExibidora.innerHTML = `${valor}`
                 break
 
             case "tec8":
 
                 valor += "8"
-                telaExibidora.innerHTML = ``
                 telaExibidora.innerHTML = `${valor}`
                 break
 
             case "tec9":
 
                 valor += "9"
-                telaExibidora.innerHTML = ``
                 telaExibidora.innerHTML = `${valor}`
                 break
 
             case "tec0":
 
                 valor += "0"
-                telaExibidora.innerHTML = ``
                 telaExibidora.innerHTML = `${valor}`
                 break
 
